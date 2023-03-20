@@ -1,0 +1,15 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: Remove apache2 Package
+    apt:
+      name: apache2
+      state: absent
+
+  - name: Remoce PHP Support for apache
+    apt:
+      name: libapache2-mod-php
+      state: absent
