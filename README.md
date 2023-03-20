@@ -1,2 +1,2 @@
-# ansible
-This is my repo for storing Ansible playbooks and expanding my knowledge
+# Ansible
+This is my repo for storing Ansible playbooks and expanding my knowledge!
